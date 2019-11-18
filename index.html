@@ -1,0 +1,31 @@
+<html>
+<head>
+<img src="coins.jpg" width="300" height = "100"  alt="coins">
+<link rel="stylesheet" type="text/css" href="daybyday.css">
+
+<script type="text/javascript" src="daybyday.js" >
+</script>
+<p style=" url(coins.jpg)" align = "left" >This is a calculator that gives you <br /> an average daily spending limit<br /> based on the amount leftover. </p>
+</head>
+
+<body>
+
+<p  align = "left" > Amount leftover for the month : </p>
+<div id="wrapper"></div>
+<p align = "left"> Your average daily spending limit is :</p>
+<div id="wrapper2"></div>
+<div id="a" style="position:relative;">
+
+<form name="monthly">
+<br />
+<label class="container" >Monthly Salary: <input type="text" name="rows" id="ms" style="position:absolute"/></label><br />
+<label class="container" >Car Payments/insurance: <input type="text" name="cols" id="cp" style="position:absolute"/></label><br/>
+<label class="container" >Rent: <input type="text" name="cols" id="rp" style="position:absolute"/></label><br/>
+<label class="container" >Utilities: <input type="text" name="cols" id="ut" style="position:absolute"/></label><br/>
+<input id ="b" name="generate" type="button" value="Calculate!" onclick='createTable();'/>
+</form>
+</div>
+
+
+</body>
+</html>
